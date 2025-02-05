@@ -5,22 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Projeto Portfólio">
-    <meta name="author" content="Generation Brasil">
+    <meta name="author" content="Lucas Daniel Souza Dias">
     <meta name="keywords" content="HTML, CSS, JavaScript">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- Cabeçalho da Página (header) -->
     <header>
+
         <!-- Div Conteudo do Cabeçalho -->
-        <div id="header_content">
+        <div id="header_content" class="flex">
+
             <!-- Titulo do Cabeçalho -->
             <div id="titulo">
+
                 <!-- Seu nome -->
-                <h1>Generation Brasil</h1>
+                <h1>Gustavo Corrêa</h1>
+
             </div>
 
             <!-- Conteudo do Menu da Página (header) -->
@@ -32,41 +35,36 @@
                     <!-- Marcadores não ordenados + links -->
                     <ul id="menu">
                         <li>
-                            <a href="index.html"> Home </a>
+                            <a href="index.html">Home</a>
                         </li>
                         <li>
-                            <a href="contato.html"> Contato </a>
+                            <a href="contato.html">Contato</a>
                         </li>
                     </ul>
 
                 </nav>
 
             </div>
+
         </div>
+
     </header>
-
-
-
-
-
-
-
-
 
     <!-- Seção Principal da Página (main) -->
     <main>
+
         <!-- Seção Sobre você -->
-        <section id="about">
+        <section id="about" class="flex_start">
 
             <!-- Título da Seção -->
-            <h2>Sobre a Generation Brasil</h2>
+            <h2>Sobre mim</h2>
 
             <!-- Conteúdo da Seção -->
-            <div id="conteudo">
+            <div id="conteudo" class="flex">
 
                 <!-- Imagem do criador do conteúdo -->
-                <img src="./assets/img/user_01.svg" alt="Foto do criador desse conteudo" />
-
+                <img src="./assets/img/user_01.svg" alt="Foto do criador desse conteudo" style="width: 200px;"
+                    class="img_profile">
                 <!-- Texto sobre o criador do conteúdo -->
                 <article id="sobre_texto">
                     <p>
@@ -95,63 +93,46 @@
             </div>
         </section>
 
-
-
-
-
-
-
-
         <!-- Seção contendo um vídeo de sua preferência -->
-        <section id="video">
-            <h2>Meu videos favorito</h2>
-            <div id="youtube">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/g6M8oJq-dEA?si=jKP8MtzzFyoeEZxf"
+        <section id="video" class="flex_start">
+
+            <!-- Título da Seção -->
+            <h2>Meu vídeo favorito:</h2>
+
+            <!-- Vídeo da Seção -->
+            <div id="youtube" class="flex">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ROUsLBdWLyY?si=qd8veW4wWAsCebuI"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
+
         </section>
+
     </main>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Rodapé da Página (footer) -->
-    <footer>
+    <footer class="flex">
 
         <!-- Seção de Contato - Redes Sociais-->
         <section id="redes_sociais">
 
             <a href="">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+                <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon" />
             </a>
             <a href="">
-                <img src="assets/img/github.svg" alt="Github" />
+                <img src="assets/img/github.svg" alt="Github" id="github" />
             </a>
             <a href="">
-                <img src="assets/img/instagram.svg" alt="Instagram" />
+                <img src="assets/img/instagram.svg" alt="Instagram" id="instagram" />
             </a>
 
         </section>
 
-        <h3>
-            Feito com 🧡 por Gustavo Corrêa - 2025
-        </h3>
+        <h3>Feito com por Gustavo Corrêa - 2025</h3>
+
     </footer>
+
 </body>
 
 </html>
