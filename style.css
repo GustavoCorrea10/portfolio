@@ -35,8 +35,16 @@ body {
 /* Definindo as configurações de títulos e paragrafo */
 h1 {
     color: #F9F9F9;
-    font-size: 2rem;
+    font-size: 38px;
     font-weight: 700;
+}
+
+#Sobre{
+    text-align: center;
+    padding: 1rem;
+    color: #F9F9F9;
+    font-size: 3.5rem;
+    font-weight: 600;
 }
 
 h2 {
@@ -44,7 +52,7 @@ h2 {
     color: #F9F9F9;
     font-size: 1.5rem;
     font-weight: 600;
-    text-align: left;
+    text-align: center;
 }
 
 h3 {
@@ -56,7 +64,7 @@ h3 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 24px;
     line-height: 1.5rem;
     text-align: justify;
     padding: 0.5rem 0;
@@ -78,7 +86,7 @@ p {
 
 /* Estilização da Seção Header */
 #header_content {
-    height: 80px;
+    height: 95px;
     position: sticky;
     top: 0;
     width: 100%;
@@ -98,7 +106,7 @@ p {
 #menu li a {
     text-decoration: none;
     color: var(--white);
-    font-size: 20px;
+    font-size: 28px;
 }
 
 #menu li a:hover {
@@ -117,11 +125,13 @@ p {
 #conteudo {
     flex-direction: row;
     gap: 2rem;
+    margin-top: -52px;
 
 }
 
 .img_profile {
     width: 200px;
+    border-radius: 100px;
 }
 
 /* Estilização da Seção Video */
@@ -287,3 +297,7 @@ form button:hover {
     text-align: justify;
     font-weight: 600;
 }
+
+
+
+    
