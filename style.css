@@ -40,10 +40,10 @@ h1 {
 }
 
 #Sobre{
-    text-align: center;
+    text-align: left;
     padding: 1rem;
     color: #F9F9F9;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
@@ -124,8 +124,9 @@ p {
 
 #conteudo {
     flex-direction: row;
-    gap: 2rem;
-    margin-top: -52px;
+    gap: 3rem;
+    margin-top: 17px;
+    margin-left: 25px;
 
 }
 
